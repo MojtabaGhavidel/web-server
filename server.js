@@ -41,7 +41,7 @@ zire rout mizashtim hichvaght ejra namishud pas ayad on ro dar bala gharar bedim
 ro az zir pak kunim*/
 //middleware zire sathe route hast va faghat dar /about amal mikune
 app.get('/about', middleware.requireAuthentication, function(req, res){
-	res.send('Do you like me now?');
+	res.send('Do you like me now?!');
 });
 
 
