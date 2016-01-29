@@ -7,6 +7,7 @@ var express = require('express');
 var app = express();
 var PORT = 3000 ;
 
+//var middleware = require(/middleware.js)
 //1 object jadid be name middleware misazim
 var middleware = {
 	//middleware sathe route hast
